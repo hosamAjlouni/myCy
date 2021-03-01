@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "cypress": "^6.5.0"
+  },
+
+
+  "scripts": {
+    "cy:d-headed"   : "cypress open --config userAgent=desktop",
+    "cy:d-headless" : "cypress run --config userAgent=desktop",
+    "cy:m-headed"   : "cypress open --config userAgent=mobile",
+    "cy:m-headless" : "cypress run --config userAgent=mobile"
+  }
+}
